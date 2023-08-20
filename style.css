@@ -148,3 +148,16 @@ html{
   z-index: 2;
   display: none;
 }
+
+footer{
+  background-color: #9dd2ea;
+  position: absolute;
+  margin-top: auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 20px;
+}
