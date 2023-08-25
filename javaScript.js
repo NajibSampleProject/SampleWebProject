@@ -118,31 +118,6 @@ function generateQA(){
   }
 }
 
-
-
-// if we click on the start/reset 
-  // if we are playing 
-    //reload the page
-  //if we  are not playing
-    //set the score to zero (0)
-    //show the countdown box
-    //start reducing time by second in loops
-      //timeleft?
-        //yes? >continue
-        //no?  -> gameover
-    //change button to reset
-    //generate new Q&A
-
-// if we click on answer box
-  //if we  are playing
-    //correct?
-      //yes
-        //increase score by 1
-        //show the correct box for one second
-        //Geneate new Q&A
-      //No
-        //show try again box for 1 second
-
         // clicking on answer box
         for(i=1; i<5; i++){
           document.getElementById("box"+i).onclick = function(){
